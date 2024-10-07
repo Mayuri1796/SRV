@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+body .container {
+  max-width: 1350px !important;
+}
+body img {
+  width: 100%;
+}
+body h4 {
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 88.92px;
+  color: #122e5e;
+  font-family: Poppins;
+}
+
+.education header {
+  background: linear-gradient(269.67deg, rgba(20, 174, 224, 0) 28.15%, rgba(18, 46, 94, 0.7) 99.75%);
+}
+.education header .navbar .logo {
+  background-color: #09172f;
+  margin-left: -108px;
+  margin-top: -10px;
+  padding: 20px 0 10px 100px;
+}
+.education header .navbar .logo img {
+  width: 305px;
+  height: 103px;
+}
+.education header .navbar .menu .navbar-nav .nirf {
+  background-color: #f8eec5;
+  border-radius: 8px 0 0 8px;
+}
+.education header .navbar .menu .navbar-nav .university {
+  border-radius: 2px;
+  background-color: #fff9e3;
+}
+.education header .navbar .menu .navbar-nav .university img {
+  width: 145px;
+  height: 93px;
+}
+.education .education_banner {
+  background-image: linear-gradient(269.67deg, rgba(20, 174, 224, 0) 0%, rgba(18, 46, 94, 0.7) 70%), url(../images/Banner-Desktop.jpg);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.education .education_banner .banner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 75px;
+}
+.education .education_banner .banner .education_banner_text h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  color: white;
+  font-family: Poppins;
+}
+.education .education_banner .banner .education_banner_text h1 span {
+  font-weight: 700;
+  color: #ffcd27;
+}
+.education .education_banner .banner .education_banner_text h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: left;
+  color: #ffcd27;
+  text-transform: uppercase;
+  font-family: Poppins;
+}
+.education .education_banner .banner .education_banner_text .education_adm {
+  border: 3px solid white;
+  border-radius: 12px;
+  width: 410px;
+}
+.education .education_banner .banner .education_banner_text .education_adm h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 48px;
+  color: white;
+  font-family: Poppins;
+  margin-bottom: 0;
+}
+.education .education_banner .banner .education_banner_text .education_adm h4 {
+  color: #122e5e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 67.5px;
+  letter-spacing: 0.01em;
+  background-color: #ffcd27;
+  margin-bottom: 0;
+  border-radius: 0 0 10px 10px;
+  font-family: Poppins;
+}
+.education .education_banner .banner .education_banner_text .hashtag {
+  background: white;
+}
+.education .education_banner .banner .education_banner_text .hashtag h5 {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #122e5e;
+  font-family: Poppins;
+}
+.education .education_banner .banner .education_rectangle .education_rectangle_img {
+  width: 500px;
+  height: 678px;
+  border-radius: 25px;
+  opacity: 70%;
+  background-color: white;
+}
+.education .education_banner hr {
+  background: white;
+}
+.education .education_banner .education_list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.education .education_banner .education_list li {
+  float: left;
+}
+.education .education_banner .education_list li a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+.education .education_banner .scholarship {
+  display: flex;
+  justify-content: center;
+}
+.education .education_banner .scholarship h6 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 48px;
+  color: #fff;
+  padding: 0 0 0 5px;
+  font-family: Poppins;
+  background: linear-gradient(to right, rgba(3, 82, 218, 0.5) 50%, rgba(18, 46, 94, 0.5) 50%);
+}
+.education .education_banner .scholarship h6 span {
+  font-weight: 700;
+  background-color: yellow;
+  color: #122e5e;
+  padding: 0 5px;
+}
+.education .education_banner .scroll {
+  margin-top: 60px;
+}
+.education .education_banner .scroll p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.education .education_banner .scroll .scroll_icon i {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: #000;
+}
+.education .education_about {
+  padding: 75px 0;
+}
+.education .education_about h5 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #606060;
+  font-family: Poppins;
+}
+.education .education_about h5 span {
+  font-size: 17px;
+  font-weight: 600;
+}
+.education .education_about .card {
+  border-radius: 30px;
+  box-shadow: 0px 0px 14px 0px #d8f1fa;
+  border: none;
+  padding: 20px;
+  height: 450px;
+}
+.education .education_about .card img {
+  width: 68px;
+  height: 86px;
+}
+.education .education_about .card .card-body .text .vl {
+  height: 50px;
+  border-left: 6px solid #1398ca;
+  margin-right: 10px;
+}
+.education .education_about .card .card1 .card-body h6 {
+  background: linear-gradient(90.32deg, #122e5e 100%, #14aee0 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.education .education_about .card2 {
+  border-radius: 30px;
+  box-shadow: 0px 0px 14px 0px #d8f1fa;
+  border: none;
+  padding: 20px;
+  background: linear-gradient(250.93deg, #0352da 2.34%, #122e5e 100%);
+  color: #fff;
+}
+.education .education_about .card2 img {
+  width: 68px;
+  height: 86px;
+}
+.education .education_about .card2 .card-body h6 {
+  color: #fff;
+  font-family: Poppins;
+}
+.education .university_advantage {
+  background: linear-gradient(250.93deg, #0352da 2.34%, #122e5e 100%);
+  padding: 75px 0;
+}
+.education .university_advantage .row {
+  margin-top: 25px;
+}
+.education .university_advantage h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 74px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-family: Poppins;
+}
+.education .university_advantage .icon .card {
+  border: none !important;
+  background: none;
+}
+.education .university_advantage .icon_img img {
+  width: 64px;
+  background: yellow;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0 auto;
+}
+.education .university_advantage .icon .card-body p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.education .study_india {
+  padding: 75px 0;
+  background: #f4f8ff;
+}
+.education .study_india .row {
+  margin-top: 40px;
+}
+.education .study_india h4 {
+  color: #122e5e;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 85px;
+  text-align: left;
+}
+.education .study_india .study_img {
+  border: none;
+  box-shadow: 0px 0px 14px 0px #d8f1fa;
+  border-radius: 30px;
+  padding: 30px;
+  height: 230px;
+}
+.education .study_india .study_img img {
+  width: 68px;
+  margin: 0 auto;
+}
+.education .study_india .study_img p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.education .phd {
+  background: linear-gradient(250.93deg, #0352da 2.34%, #122e5e 100%);
+  padding: 75px 0;
+}
+.education .phd h1 {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 74px;
+  text-align: center;
+  color: #ffcd27;
+}
+.education .phd .row {
+  margin-top: 30px;
+}
+.education .phd_card .card {
+  border: none;
+  background: #09327a;
+  border-radius: 12px;
+}
+.education .phd_card .card .card_image {
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
+.education .phd_card .card .card_image img {
+  width: 141px;
+  border-radius: 12px;
+  border: 3px solid yellow;
+}
+.education .phd_card .card .card_image .card_body {
+  margin: 0 15px;
+}
+.education .phd_card .card .card_image .card_body h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29.64px;
+  text-align: left;
+  color: #fff;
+}
+.education .carousel {
+  padding: 75px 0;
+}
+.education .carousel h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 74px;
+  text-align: center;
+  color: #122e5e;
+}
+.education .carousel .card {
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+  border-radius: 30px;
+  margin: 20px;
+}
+.education .footer {
+  background: #122e5e;
+  padding: 50px 0;
+}
+.education .footer h2 {
+  margin-bottom: 50px;
+}
+.education .footer ul {
+  position: relative;
+  list-style-type: none;
+}
+.education .footer ul .env {
+  margin-top: 37px;
+}
+.education .footer ul li {
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 45px;
+  margin-bottom: 10px;
+  line-height: 1.6em;
+}
+.education .footer ul li a {
+  color: #fff;
+}
+.education .footer ul li i {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 20px;
+  line-height: 1em;
+  color: blue;
+  background-color: white;
+  border-radius: 50px;
+  padding: 7px 9px;
+}
+.education .footer-bottom {
+  background: black;
+  padding: 10px 0 6px 0;
+}
+.education .global {
+  padding: 75px 0;
+}
+.education .global h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 74px;
+  text-align: center;
+  color: #122e5e;
+}
+.education .global img {
+  height: 120px;
+  width: 350px;
+}
+.education .global_img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.education .slick-slide img {
+  width: 120px;
+}/*# sourceMappingURL=style.css.map */

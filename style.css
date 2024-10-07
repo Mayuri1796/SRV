@@ -1,0 +1,304 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+.wrapper #sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #fff;
+  color: #535f6e;
+  transition: all 0.3s;
+  position: fixed;
+}
+.wrapper #sidebar .sidebar-header {
+  padding: 20px;
+}
+.wrapper #sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+.wrapper #sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+.wrapper #sidebar .logo-details {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper #sidebar .logo-details i {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  min-width: 60px;
+  text-align: center;
+}
+.wrapper #sidebar .logo-details .userName h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #535f6e;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.wrapper #sidebar .logo-details .userName h6 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #535f6e;
+}
+.wrapper #content {
+  width: 100%;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.wrapper #content .navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  position: static;
+}
+.wrapper #content .toggle-btn {
+  color: #bdc3dd;
+  background-color: #edf1f6;
+  font-size: 25px;
+  border: none;
+  padding: 0 10px;
+  z-index: 1;
+}
+.wrapper #content .profile-details .bx-bell {
+  font-size: 25px;
+}
+.wrapper #content .profile-details .bx-dots {
+  font-size: 25px;
+}
+.wrapper #content .profile-details sup {
+  font-size: 10px;
+  color: #f7685b;
+  top: -14px;
+  left: -13px;
+}
+.wrapper .nav-links {
+  padding: 0;
+}
+.wrapper .nav-links li {
+  list-style-type: none !important;
+}
+.wrapper .nav-links li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.wrapper .nav-links li a i {
+  min-width: 60px;
+  text-align: center;
+  color: #535f6e;
+  font-size: 18px;
+}
+.wrapper .nav-links .link_name {
+  color: #535f6e;
+  font-size: 15px;
+  font-weight: 400;
+}
+.wrapper .page_content {
+  background-color: #f5f6f8;
+}
+.wrapper .page_content .main {
+  padding: 20px;
+}
+.wrapper .page_content .main .input-group {
+  box-shadow: 2px 2px 4px #fff;
+}
+.wrapper .page_content .main .input-group .form-control {
+  border: none;
+  padding: 20px !important;
+}
+.wrapper .page_content .main .input-group-append {
+  border: none;
+}
+.wrapper .page_content .main .input-group-append button {
+  background-color: #fff;
+}
+.wrapper .page_content .main .circle_div {
+  background: white;
+}
+.wrapper .page_content .main .circle_div .seo-test {
+  margin-top: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.wrapper .page_content .main .circle_div .seo-test .circle {
+  width: 40px;
+  height: 40px;
+  background: #c4c4c4;
+  border-radius: 50px;
+}
+.wrapper .page_content .main .circle_div .seo-test .box1 .boxName {
+  padding-left: 10px;
+}
+.wrapper .page_content .main .circle_div .seo-test .box1 .boxName .name {
+  font-size: 15px;
+}
+.wrapper .page_content .main .circle_div .seo-test .box1 .boxName .date {
+  font-size: 11px;
+}
+.wrapper .page_content .main .circle_div .image {
+  padding: 15px;
+}
+.wrapper .page_content .main .circle_div .image h5 {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.wrapper .page_content .main .circle_div .image h6 {
+  font-size: 11px;
+  color: #828792;
+}
+.wrapper .page_content .main .circle_div .image p {
+  color: #828792;
+  font-size: 14px;
+}
+.wrapper .page_content .side-images {
+  padding: 22px 0 10px 10px;
+  background: white;
+}
+.wrapper .page_content .side-images .slider .slick-dots {
+  bottom: -129px !important;
+  left: 95px !important;
+}
+.wrapper .page_content .side-images img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.wrapper .page_content .side-images h4 {
+  font-size: 15px;
+  color: #000;
+}
+.wrapper .page_content .side-images h5 {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.wrapper .page_content .side-images h6 {
+  font-size: 11px;
+  color: #828792;
+}
+.wrapper .page_content .side-images .circle_div {
+  background: white;
+}
+.wrapper .page_content .side-images .circle_div .seo-test {
+  display: flex;
+  align-items: center;
+}
+.wrapper .page_content .side-images .circle_div .seo-test .circle {
+  width: 40px;
+  height: 40px;
+  background: #c4c4c4;
+  border-radius: 50px;
+}
+.wrapper .page_content .side-images .circle_div .seo-test .box1 .boxName {
+  padding-left: 10px;
+}
+.wrapper .page_content .side-images .circle_div .seo-test .box1 .boxName .name {
+  font-size: 15px;
+}
+.wrapper .page_content .side-images .circle_div .seo-test .box1 .boxName .date {
+  font-size: 11px;
+}
+.wrapper .page_content .side-images .circle_div .image {
+  padding: 15px;
+}
+.wrapper .page_content .side-images .circle_div .image h5 {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.wrapper .page_content .side-images .circle_div .image h6 {
+  font-size: 11px;
+  color: #828792;
+}
+.wrapper .page_content .side-images .circle_div .image p {
+  color: #828792;
+  font-size: 14px;
+}
+
+.social {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+.social li {
+  list-style-type: none;
+}
+.social .fa {
+  color: white;
+  font-size: 35px;
+  background: #2b3990;
+  padding: 14px 14px;
+  margin-top: 6px;
+  border-radius: 50px;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+    position: static;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+  .page_content .side-images .slider .slick-dots {
+    bottom: -37px !important;
+    left: -20px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

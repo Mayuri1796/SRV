@@ -1,0 +1,212 @@
+@media only screen and (max-width: 1024px) {
+  .education {
+    .education_banner {
+      .banner {
+        .education_rectangle {
+          .education_rectangle_img {
+            width: 315px;
+            height: 400px;
+          }
+        }
+      }
+    }
+    .education_about {
+      .card {
+        height: 600px;
+      }
+    }
+    .study_india {
+      .study_img {
+        height: 263px;
+      }
+    }
+    .phd_card {
+      .card {
+        .card_image {
+          .card_body {
+            h6 {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .education {
+    .education_banner {
+      .banner {
+        .education_rectangle {
+          .education_rectangle_img {
+            width: 300px;
+            height: 500px;
+          }
+        }
+        .education_banner_text {
+          .education_list {
+            .list {
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+    .education_about {
+      .card {
+        height: 973px;
+      }
+    }
+    .study_india {
+      .study_img {
+        height: 263px;
+      }
+    }
+    .phd_card {
+      .card {
+        .card_image {
+          .card_body {
+            h6 {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+    .slick-slide img {
+      width: 50px;
+    }
+    .card-title {
+      font-size: 12px;
+    }
+    .text-secondary {
+      font-size: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 479px) and (max-width: 768px) {
+  .education {
+    .education_banner {
+      .banner {
+        .education_rectangle {
+          display: none;
+        }
+      }
+    }
+    .phd_card {
+      .card {
+        .card_image {
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .global_img {
+      flex-direction: column;
+      align-items: center;
+    }
+    .study_india,
+    .education_about {
+      h4 {
+        font-size: 35px;
+        line-height: 57px;
+      }
+    }
+    .study_india {
+      .study_img {
+        height: 400px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 478px) {
+  .education {
+    .education_banner {
+      height: auto;
+      .banner {
+        .education_banner_text {
+          h1 {
+            font-size: 30px;
+          }
+          h2 {
+            font-size: 40px;
+          }
+          .education_adm {
+            width: 348px;
+            h3 {
+              font-size: 22px;
+            }
+            h4 {
+              font-size: 26px;
+            }
+          }
+          .hashtag {
+            h5 {
+              font-size: 27px;
+            }
+          }
+        }
+        .education_rectangle_img {
+          display: none;
+        }
+      }
+    }
+    .global {
+      &_img {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .education_banner_text {
+      .education_list {
+        .list {
+          flex-direction: column;
+        }
+      }
+    }
+    .global,
+    .university_advantage,
+    .phd,
+    .carousel {
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .education_about,
+    .study_india {
+      h4 {
+        font-size: 55px;
+      }
+    }
+    .education_about {
+      .card {
+        margin-top: 20px;
+      }
+    }
+    .study_india {
+      .study_img {
+        margin-top: 20px;
+      }
+    }
+
+    .phd_card {
+      .card {
+        margin-top: 20px;
+        .card_image {
+          flex-direction: column;
+        }
+      }
+    }
+
+    .footer {
+      .col-md-4 {
+        margin-top: 40px;
+      }
+    }
+  }
+}
